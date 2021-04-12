@@ -1,0 +1,300 @@
+<html>
+
+<head>
+
+<title>  Logica  Matematica </title>
+<link  type="text/css2"  href="css2/estilo2.css"  rel="stylesheet" />
+
+</head>
+
+<body  bgcolor="#01DFD7" >
+
+ <div style="background:#00FF00; width:20%; height: 30px; float:left;"> <a href= "logicamatematicapagina1.html">inicio</a> </div>
+
+  <div  style="background:#58FAF4; width:20%; height: 30px;float: left;"> <a href="logicamatematicapagina2.html"> Sistemas Numericos </a> </div>
+
+   <div  style="background:#F6CEF5; width: 20%; height:30px; float: left;"> <a href= "logicamatematicapagina3.html"> Calculo Proposicional </a> </div>
+   
+<div  style=" background: #D7DF01;  width: 20%; height:30px; float: left;"> <a href="logicamatematicapagina4.html" >Teoria de Conjuntos </a> </div>
+
+<div  style=" background: #FF8000; width: 20%; height: 30px; float: left;"> <a href="logicamatematicapagina5.html">Algebra de Boole y Compuertas Logicas </a> </div>
+
+
+       <p  style= "color=#58FAF4; text-align:justify;"> 
+<br>
+<br>       
+
+<center>  
+
+<h1  style= color:"#0404B4" >  Calculo Proposicional </h1>
+
+ </center>
+
+<br>
+<br>
+
+  <center>  <img src="proposicional.jpg" width="440" height="300" >  </center>   
+
+<br>
+
+ <P>
+ <h2>
+
+ 
+
+ 
+<br>
+<br> 
+ <br>
+ <li> <center> <h1 style= color:"#0404B4"    >Principales Conceptos </h1>      </center> </li>
+ 
+ <br>
+ 
+<ul> 
+El calculo proposicional es tambien llamado, logica proposicional, calculo sentencial, algebra Booleana. 
+El calculo proposicional, junta dos calculos de predicados con la constitucion de simbolos logicos.
+<br>
+<br>
+La Logica Matematica surge como una disciplina matematica cuyo objeto de estudio es la logica del razonamiento matematico humano (y actualmente tambien de otras formas de razonamiento). 
+Requiere de expresar la logica en terminos susceptibles de ser representados y manejados por un computador.
+<br>
+<br>
+La logica proposicional es la parte de la l贸gica que estudia las formas en que se relacionan unas proposiciones con otras y, sobre todo, la relacion que se da entre las proposiciones que componen un razonamiento.
+
+
+
+</ul>  
+ 
+ 
+ <li> <center> <h1 style= color:"#0404B4"    >Proposiciones </h1>      </center> </li>
+ 
+<br> 
+ 
+ <ul>
+ 
+Las proposiciones son definidas, apenas "como un pensamiento completo".
+ Para nuestro prop贸sito las proposiciones pueden ser tentativamente igual a una sentencia.
+<br>
+<br>
+
+Las proposiciones son una sentencia declarativa, o reglas las cuales tienen valores de verdad, una proposici贸n puede tener dos valores, verdadero o falso. Pero no ambos (verdadero y falso) y tampoco pueden no tomar ning煤n valor. Una proposici贸n es un hecho. 
+Los argumentos de las proposiciones son: premisas y conclusiones de una proposici贸n. Las proposiciones son portadoras de veracidad y falsedad.
+ <br>
+ <br>
+ 
+Mientras las proposiciones son expresadas en sentencias, la rama de la l贸gica se conoce como s铆mbolos l贸gicos empleando letras de variables min煤sculas, o variables de sentencias o variables proposicionales, p, q, r, s,..., para expresar proposiciones. 
+ <br>
+ <br>
+ 
+Proposiciones simples o hechos
+<br>
+<br>
+Las siguientes son proposiciones simples las cuales son verdaderas:
+<br>
+
+<li> El cielo es azul  </li>
+
+<br>
+
+
+<li> La nieve es fria  </li>
+ 
+ <br>
+ <br>
+ Las siguientes proposiciones simples son falsas:
+ <br>
+ 
+ <li> Honda hace televisiones  </li>
+ <br>
+ 
+ <li> El General Fidel Castro es un Democrata </li>
+<br>
+<br>
+
+Las siguientes son proposiciones no validas:
+<br> 
+ 
+ 
+ <li> El es un vendedor-> Esta no es una proposici贸n porque "El" no esta definido. 
+ Como un resultado no hay manera de verificar la sentencia y asignarle un valor de verdad.  </li>
+ <br>
+ 
+ <li>  Esta declaracion es una mentira-> No es una proposicion porque "Esta" no esta definida como una declaracion.
+  No hay referencia y como en otros ejemplos no podemos asignar un valor de verdadero o falso a la declaracion.  </li>
+ 
+ <br>
+ <br>
+ 
+Proposiciones compuestas
+<br>
+<br>
+Las proposiciones son expresadas a traves de variables (p, q, r, s). Conectivos logicos y operadores establecen relaciones entre dos o mas proposiciones. La funcion principal de los operadores es la de formar una nueva proposicion de una o mas proposiciones. 
+Asi las declaraciones compuestas o proposiciones son formadas. 
+ 
+ 
+ 
+ 
+ </ul>
+ 
+ <li> <center> <h1 style= color:"#0404B4"    >Operaciones sobre las proposiciones </h1>      </center> </li>
+ 
+ <br>
+ 
+ <ul>
+ 
+Algunos autores agrupan los conectores que se utilizan sobre las proposiciones, en el calculo proposicional en dos agrupaciones (como la que se muestra en seguida), y otros los clasifican segun su importancia:
+  <br>
+  <br>
+  
+  Conectivos agrupados segun Balancing Bird  199 G. Benton
+  <br>
+  <br>
+
+Monodico: envuelve solamente una expresi贸n de la declaracion
+La negacion, simbolizada por "卢" y significa no es verdad.
+<br>
+<br>
+
+Diadico: envuelve dos proposiciones.
+<br>
+
+El conector AND es simbolizado por "^" y significa "y"
+<br>
+ 
+El conector OR es simbolizado por "v" y significa "o"
+<br>
+ 
+La condicion es simbolizado por "R" y se lee "Si... entonces"
+<br>
+
+Bicondicional es simbolizado por "<->" y se lee "Si y solo si"
+<br>
+ <br>
+ 
+Reuniendo todos los conectivos en una tabla segun su importancia, quedaria como se muestra en la figura
+<br>
+<br>
+ 
+ <center>  <img src="logico.jpg" width="440" height="300" >  </center>   
+ <br>
+ <br>
+ 
+ La proposicion logica hace mas facil y efectiva la manipulacion de valores de verdad entre proposiciones. Las tablas de verdad muestran los principales valores de verdad de diferentes grupos de proposiciones conectados por operadores.
+  Los valores de verdad de una proposicion compuesta dependen en los valores de verdad de estos componentes (p, q, r, s...) y de la funcion del conector. 
+  Asignando simbolos a proposiciones y conectores, expresando relaciones entre declaraciones dentro de una tabla de verdad donde los valores de verdad son mas facilmente reconocidos, tan bien como formalizados.
+
+ 
+ 
+ 
+ 
+ 
+ </ul>
+
+  <li> <center> <h1 style= color:"#0404B4"    >Tabla de verdad </h1>      </center> </li>
+<br>
+
+<ul>
+
+<center>  <img src="verdad.jpg" width="440" height="300" >  </center> 
+
+
+Para construir la tabla de verdad,  utilizaremos 3  variables.
+<br>
+<br>
+
+<li> Primero se construye la formula y a su izquierda las variables (letras) que en ella entran. 
+De esta manera ya se tiene el encabezado.  </li>
+<br>
+<br>
+
+<li> Para conocer el numero de renglones se aplica la formula  , siendo "n", el n煤mero de variables. 
+En este caso  =  , o sea. 2 x 2 x 2 = 8. Trazando pues ocho renglones.   </li>
+<br>
+<br>
+
+<li> Debajo de cada una de las variables de la izquierda (p, q, r) se escribe una columna de valores.
+ Empezando por la derecha anotando una V y una F, una V y una F, etc., hasta completar el n煤mero de renglones (en este caso ocho).
+  La siguiente columna a la izquierda se forma escribiendo dos veces V y dos veces F, etc., hasta llenar los renglones. 
+  La siguiente columna se forma escribiendo cuatro veces V y cuatro veces F.   </li>
+<br>
+<br>
+
+<li> Para calcular los valores de los conectivos se aplica la regla respectiva y se empieza por los m谩s interiores.
+ El 煤ltimo conectivo en ser calculado es el que este fuera de todo parentesis.    </li>
+<br>
+<br>
+
+
+
+
+
+</ul>
+
+ <li> <center> <h1 style= color:"#0404B4"    >Tautologia, Contradicion e Incongruencia </h1>      </center> </li>
+<br>
+
+<center>  <img src="tautologia.jpg" width="440" height="300" >  </center>   
+
+<br>
+<br>
+
+
+<ul>
+
+Es una proposici髇 compuesta que es verdadera en todos los casos, cualquiera que sea el valor de verdad de sus proposiciones simples. 
+La proposici髇 tautol骻ica o tautolog韆 es siempre verdadera por su forma l骻ica, es decir, por la forma en que se relacionan sus proposiciones simples. 
+
+<br>
+<br>
+
+Contradicion: Es una proposici髇 compuesta que es falsa en todos los casos, cualquiera que sea el valor de verdad de las proposiciones simples.
+<br>
+<br>
+Puesto que la negaci髇 invierte los valores de verdad de una proposici髇, al negar una tautolog韆 obtenemos una contradicci髇, y viceversa; al negar una contradicci髇 obtenemos una tautolog韆. 
+<br>
+<br>
+
+Incongruencia: Una proposici髇 incongruente (llamada tambi閚 contingente) es una proposici髇 compuesta que es verdadera en algunos casos y falso en otros. 
+Son proposiciones de las que tenemos que determinar las combinaciones de los valores de verdad que las hacen verdadera o falsa y, por ello,
+ su valor de verdad depende no de la forma l骻ica sino del valor de verdad de sus proposiciones simples.
+
+
+</ul>
+
+
+ <li> <center> <h1 style= color:"#0404B4"    >Propiedades Metalogicas </h1>      </center> </li>
+<br>
+
+<ul>
+
+La l骻ica proposicional posee las siguientes propiedades metal骻icas: 
+<br>
+<br>
+
+<li> Consistencia : ya que del c醠culo proposicional no puede derivarse ninguna contradicci髇.  </li>
+<br>
+<br>
+
+<li>  Completud : puesto que todas las expresiones verdaderas construidas con los signos del c醠culo son demostrables en 閘.   </li>
+<br>
+<br>
+
+<li> Decidibilidad : porque para cualquier f髍mula dada puede determinarse por un procedimiento bien pautado en un n鷐ero finito de pasos su validez en el c醠culo.
+ Este procedimiento algor韙mico son las tablas de verdad.  </li>
+<br>
+<br>
+
+<li> La independencia de los axiomas, en el sentido de que ning鷑 axioma del c醠culo puede deducirse de otro.  </li>
+
+
+</ul>
+
+
+ 
+ </h2>
+ 
+ 
+ 
+  
+ 
+ 

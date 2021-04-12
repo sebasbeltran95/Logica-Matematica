@@ -1,0 +1,617 @@
+<html<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<title>  Logica Matematica </title>
+<link  type="text/css2"  href="css2/estilo2.css"  rel="stylesheet" />
+
+
+</head>
+
+
+ <div style="background:#00FF00; width:20%; height: 30px; float:left;"> <a href= "logicamatematicapagina1.html">inicio</a> </div>
+
+  <div  style="background:#58FAF4; width:20%; height: 30px;float: left;"> <a href="logicamatematicapagina2.html"> Sistemas Numericos </a> </div>
+
+   <div  style="background:#F6CEF5; width: 20%; height:30px; float: left;"> <a href= "logicamatematicapagina3.html"> Calculo Proposicional </a> </div>
+   
+<div  style=" background: #D7DF01;  width: 20%; height:30px; float: left;"> <a href="logicamatematicapagina4.html" >Teoria de Conjuntos </a> </div>
+
+<div  style=" background: #FF8000; width: 20%; height: 30px; float: left;"> <a href="logicamatematicapagina5.html">Algebra de Boole y Compuertas Logicas </a> </div>
+
+
+       <p  style= "color=#58FAF4; text-align:justify;"> 
+       
+       <br>
+       <br>
+
+<body  bgcolor="#01DFD7"   >
+
+
+<p>
+<h2>
+
+
+<center>  
+
+<h1  style= color:"#0404B4" > ALGEBRA DE BOOLE Y COMPUERTAS LÓGICAS </h1>
+
+ </center>
+
+<br>
+<br>
+
+
+  <center>  <img src="boole.png" width="440" height="300" >  </center>   
+<br>
+<br>
+<ul>
+
+El Algebra booleana son reglas algebraicas, basadas en la teoria de conjuntos, para manejar ecuaciones de logica matematica.
+
+<br>
+<br>
+
+La logica matematica trata con proposiciones, elementos de circuitos de dos estados, etc., 
+asociados por medio de operadores como Y, O, NO, EXCEPTO, SI...
+
+<br>
+<br>
+
+El  Algebra de Boole es un sistema matematico que utiliza variables y operadores logicos. Las variables pueden valer  0   o   1. Y las operaciones basicas son OR(+) y AND(•).
+
+<br>
+<br>
+
+Luego se definen las expresiones de  conmutacion como un numero finito de variables y constantes, relacionadas mediante los operadores (AND y OR).
+
+<br>
+<br>
+
+En la ausencia de parentesis, se utilizan las mismas reglas de precedencia, que tienen los operadores suma (OR) y multiplicacion (AND) en el  algebra normal
+
+
+</ul>
+
+
+<center> <h1 style= color:"#0404B4"  >  Leyes  </h1>   </center>
+
+<br>
+<br>
+
+<ul>
+En el  algebra de Boole se cumplen las siguientes Leyes:
+<br>
+<br>
+
+<li> Conmutatividad: </li>
+<br>
+
+X + Y = Y + X
+<br>
+
+Leyes
+<br>
+<br>
+
+<li> Asociatividad: </li>
+<br>
+
+X + (Y + Z) = (X + Y ) + Z
+<br>
+
+X • (Y • Z) = (X • Y ) • Z
+<br>
+<br>
+
+
+<li> Distributividad:  </li>
+<br>
+
+X + (Y • Z) = (X + Y ) • (X + Z)
+<br>
+
+X • (Y + Z) = (X • Y ) + (X • Z)X • Y = Y • X
+<br>
+
+<li>  Elementos Neutros (Identidad): </li>
+<br>
+
+X + 0 = X
+<br>
+
+X • 1 = X
+<br>
+<br>
+
+
+<li>  Complemento: </li>
+<br>
+
+X + X = 1
+<br>
+
+X • X = 0
+<br>
+<br>
+
+Dominacion:
+<br>
+
+X + 1 = 1 X • 0 = 0
+<br>
+<br>
+
+Demostracion:
+<br>
+
+X + 1 = (X + 1) • 1 = (X + 1) • (X + X)
+<br>
+
+(X + 1) • (X + X) = X + (1 • X) = 1
+<br>
+<br>
+
+<li>  Idempotencia:  </li>
+<br>
+
+X + X = X
+<br>
+
+X • X = X
+<br>
+<br>
+
+<li>  Doble complemento: </li>
+<br>
+
+X = X
+<br>
+<br>
+
+
+<li>  Absorcion: </li>
+<br>
+
+X + X • Y = X
+<br>
+
+X • (Y + X) = X
+<br>
+<br>
+
+Demostraci´on:
+<br>
+X + X • Y = (X • 1) + (X • Y ) = X • (1 + Y ) = X
+<br>
+<br>
+
+<li>  De Morgan: </li>
+<br>
+
+A • B = A + B
+<br>
+
+A + B = A • B
+<br>
+<br>
+
+<li> Luego se establecen los siguientes Teoremas: </li>
+<br>
+<br>
+
+
+Teorema de la Simplificacion
+<br>
+
+A + A • B = A + B
+<br>
+
+A • (A + B) = A • B
+<br>
+<br>
+
+
+Demostracion: 
+<br>
+ 
+A • A = 0
+<br>
+
+A • A + B = B
+<br>
+
+(A + B) • (A + B) = B
+<br>
+
+A • (A + B) • (A + B) = A • B
+<br>
+
+A • (A + B) = A • B
+<br>
+<br>
+
+<li> Teorema del complemento  único  </li>
+<br>
+<br>
+
+Suponemos 2 complementos 
+<br>
+
+para A (A1 y A2)
+<br>
+
+A + A1 = 1 A + A2 = 1
+<br>
+
+A • A1 = 0 A • A2 = 0
+<br>
+
+Luego,
+<br>
+
+A1 = A1 • 1 = A1 • (A + A2) = A1 • A + A1 • A2
+<br>
+
+A1 = 0 + A2 • A1
+<br>
+
+A1 = A • A2 + A1 • A2 = (A + A1) • A2
+<br>
+
+A1 = 1 • A2 = A2
+<br>
+<br>
+
+<li> Literal:   </li>
+<br>
+
+
+Es toda ocurrencia de una variable, ya sea complementada o sin complementar, en una expresion de conmutacion.
+<br>
+
+
+Por ejemplo, en la expresion de conmutacion:
+<br>
+
+A • B + C • A + D + B • 1
+<br>
+
+A, B, C y D son Variables.
+<br>
+
+A, B, C, A, D y B son Literales.
+<br>
+<br>
+
+1 es una Constante.
+<br>
+<br>
+
+
+<li>  Expresion Dual:  </li>
+<br>
+<br>
+
+
+Esta expresion se obtiene, intercambiando las operaciones AND por OR (y vice versa), e intercambiando las constantes 0 por 1 y 1 por 0 en la expresion de
+conmutacion.
+<br>
+<br>
+
+
+Por ejemplo, para la expresion de conmutacion:
+<br>
+
+(A • B) + (C • D) + 0
+<br>
+
+La Expresi´on Dual es:
+<br>
+
+(A + B) • (C + D) • 1
+<br>
+<br>
+
+
+<li>  Las funciones de conmutacion se pueden expresar:   </li>
+
+<br>
+<br>
+
+
+de Forma Algebraica, mediante una Tabla de Verdad o en Forma Canonica.
+<br>
+<br>
+
+La manera mas didactica de representar una funcion de conmutacion es mediante una Tabla de Verdad, ya que en ella se muestran los valores de salida para cada combinacion de valor de entrada.
+<br>
+<br>
+
+Las Tablas de Verdad permiten modelar los Sistemas Combinacionales.
+<br>
+<br>
+
+Dada una tabla de verdad tambien es posible obtener la forma algebraica.
+<br>
+<br>
+
+Existen 2 metodos para identificar la forma algebraica: la forma normal disyuntiva y la forma normal conjuntiva.
+<br>
+<br>
+
+
+En el caso de la forma normal disyuntiva, es necesario identificar los 1’s que resultan de la tabla de verdad y formar los terminos (conjunciones fundamentales) que los representan.
+Para formar las conjunciones fundamentales, se usa la variable complementada si para esa combinacion tiene un cero, o se deja sin complementar, si en la combinacion hay un 1.
+
+<br>
+<br>
+
+
+<li>  Suma de conjunciones fundamentales, resultando la forma normal disyuntiva: </li>
+<br>
+
+f (X1,X2,X3) = X1 • X2 • X3+X1 • X2 • X3+X1 • X2 • X3
+<br>
+
++X1 • X2 • X3+X1 • X2 • X3
+<br>
+<br>
+
+
+Estos terminos formados por todas las variables conectadas mediante operadores AND se denominan minterminos (conjunciones fundamentales)..
+<br>
+<br>
+
+Como la funcion de conmutacion corresponde a un OR de todos los minterminos, se puede expresar tambien de la forma canonica (OR canonico de AND).
+F(X1,X2,X3) = Xm (m0,m1, . . . ,mn)
+
+<br>
+<br>
+
+Para la representacion de la forma canonica, se utilizan las 
+posiciones de los minterminos en la Tabla de Verdad.
+<br>
+<br>
+
+
+Para el ejemplo anterior resulta:
+<br>
+
+f (X1,X2,X3) =P m(2, 4, 5, 6, 7)
+<br>
+<br>
+
+
+En el caso de la forma normal conjuntiva, se opera de manera contraria a la vista anteriormente.
+<br>
+<br>
+
+
+
+En este caso es necesario identificar los 0’s que resultan de la tabla de verdad y formar los terminos (disyunciones fundamentales o maxterminos) que los representan.
+
+<br>
+<br>
+
+Se dice que dos funciones de conmutacion son equivalentes si tienen expansiones en forma canonica identicas. Es decir, que tienen valores de salida identicos para las mismas combinaciones de entrada.
+
+<br>
+<br>
+
+Dicho de otra manera, dos funciones de conmutacion son equivalentes si tienen la misma tabla de verdad.
+¿Cuantas funciones distintas (No equivalentes) existen para un numero n de variables?
+<br>
+
+22n
+<br>
+<br>
+
+Esto se puede demostrar facilmente, construyendo tablas de verdad y basandose en que las funciones no equivalentes tienen tablas de verdad distintas.
+gunos operadores...
+<br>
+
+NOT F(X1) = X1
+<br>
+
+AND F(X1,X2) = X1 • X2
+<br>
+
+OR F(X1,X2) = X1 + X2
+<br>
+
+NAND F(X1,X2) = X1 • X2 = X1 + X2
+<br>
+
+NOR F(X1,X2) = X1 + X2 = X1 • X2
+<br>
+
+XAND F(X1,X2) = X1 • X2 + X1 • X2
+<br>
+
+XOR F(X1,X2) = X1 • X2 + X1 • X2
+<br>
+<br>
+
+
+Se dice que un conjunto de operadores es funcionalmente completo si se puede expresar cualquier funcion de conmutacion, utilizando solo los operadores del conjunto.
+Por ejemplo el conjunto {AND, OR, NOT} es funcionalmente completo por definicion del algebra. Sin embargo el conjunto {AND, NOT} tambien lo es.
+<br>
+<br>
+
+Otros conjuntos funcionalmente completos son: {NOR} y {NAND}.
+
+
+ 
+</ul>
+
+<center> <h1 style= color:"#0404B4"  >  COMPUERTAS LOGICAS /ALBEGRA DE BOOLE  </h1>   </center>
+<ul>
+
+El Algebra booleana difiere de manera importante del Algebra ordinaria en que las constantes y variables booleanas solo pueden tener dos valores posibles, 0 o 1. 
+Una variable booleana es una cantidad que puede, en diferentes ocasiones, ser igual a o a 1. 
+Las variables booleanas se emplean con frecuencia para representar el nivel de voltaje presente en un alambre o en las terminales de entrada y de salida de un circuito. 
+
+<br>
+<br>
+
+Asi pues, el 0 y el 1 booleanos no representan numeros sino que en su lugar representan el estado de una variable de voltaje o bien lo que se conoce como su nivel logico. 
+Se dice que un voltaje digital en un circuito digital de encuentra en nivel logico 0 ó en el 1, segun su valor numerico real. 
+En el algebra booleana no hay fracciones, decimales, numeros negativos, raices cuadradas, logaritmos, numeros imaginarios, etc. 
+De hecho en el algebra booleana solo existen tres operaciones basicas. OR, AND y NOT.
+
+<br>
+<br>
+
+ESTAS OPERACIONES BASICAS SE LLAMAN OPERACIONES LOGICAS. 
+ES POSIBLE CONSTRUIR DIGITALES LLAMADOS COMPUERTAS LOGICAS que con diodos, transistores y resistencias conectados de cierta manera hacen que 
+la salida del circuito sea el resultado de una operacion logica basica (AND, OR, NOT) sobre la entrada. 
+
+<br>
+<br>
+
+EL ALGEBRA DE BOOLE  ES UTILIZADA PARA CONSTRUIR LAS COMPUERTAS  LOGICAS QUE CONSTITUYEN  UN CIRCUITO COMBINACIONAL.
+<br>
+<br>
+
+
+<center>  <img src="compuertas.jpg" width="440" height="300" >  </center>  
+ 
+
+<br>
+<br>
+</ul>
+
+<center> <h1 style= color:"#0404B4"  >  COMPUERTA OR  </h1>   </center>
+
+<ul>
+<br>
+<br>
+
+<center>  <img src="or.gif" width="440" height="300" >  </center>   
+
+<br>
+<br>
+En un circuito digital la compuerta OR es un circuito que tiene dos o mas entradas y cuya salida es igual a la suma OR de las entradas, 
+El simbolo correspondiente a una compuerta OR de dos entradas. Las entradas A y B son niveles de voltaje logicos y la salida x es un valor
+ de voltaje logico cuyo valor es el resultado de la operacion OR de A y B; 
+
+
+<br>
+<br>
+
+</ul>
+
+<center> <h1 style= color:"#0404B4"  >  . Compuerta AND  </h1>   </center>
+<ul>
+<br>
+<br>
+
+<center>  <img src="and.gif" width="440" height="300" >  </center>  
+
+<br>
+<br>
+Si dos variables logicas A y B se combinan mediante la expresion AND, el resultado x, se puede expresar como:
+
+<br>
+<br>
+En esta expresion el signo " representa la operacion bolean de AND, cuyas reglas se dan en la tabla de verdad mostrada anteriormente. 
+Al observar la tabla, se advierte que la operación AND es exactamente igual que la multiplicación ordinaria. Siempre que A o B sean cero, 
+su producto sera cero; cuando A y B sean 1, su producto sera 1. Por tanto, podemos decir que en la operacion AND el resultado sera 1 sólo si todas las entradas son 1; 
+en los demas casos el resultado sera 0.
+
+<br>
+<br>
+
+La expresion se lee “x es igual a A AND B”. El signo de multiplicacion por lo general se omite como en el algebra ordinaria,
+
+
+</ul>
+
+
+<center> <h1 style= color:"#0404B4"  >  Compuerta NOT  </h1>   </center>
+<ul>
+
+<br>
+<br>
+
+<center>  <img src="not.gif" width="440" height="300" >  </center>  
+
+<br>
+<br>
+
+La operación NOT difiere de las operaciones OR y AND en que esta puede efectuarse con una sola variable de entrada. 
+Por ejemplo, si la variable A se somete a la operación NOT, el resultado x se puede expresar como:
+
+<br>
+<br>
+
+Donde la barra sobrepuesta representa la operación NOT. Esta expresion se lee “x es igual a NO A” o “x es igual a la inversa de A”,
+ o tambien “x es igual al complemento de A”. Cada una de estas se utiliza frecuentemente y todas indican que el valor 
+ logico de es opuesto al valor logico de A. La tabla de la verdad mostrada previamente aclara los casos de esta operacion.
+
+
+</ul>
+
+<center> <h1 style= color:"#0404B4"  >  COMPUERTA NAND </h1>   </center>
+
+<ul>
+
+<br>
+<br>
+
+<center>  <img src="nand.jpg" width="440" height="300" >  </center> 
+
+<br>
+<br>
+
+La compuerta NAND es un dispositivo de dos o mas entradas y una salida que equivale a una compuerta AND seguida de un negador 
+(NOT AND = NAND). Cumple con la condicion que la salida toma el valor lgico 0 si, y solo si todas las  entradas valen 1. 
+Si no la salida toma el valor 1. Se representa como una compuerta AND seguida de un circulo que denota la negacion
+<br>
+<br>
+
+</ul>
+
+<center> <h1 style= color:"#0404B4"  >  EN CONCLUSION </h1>   </center>
+<ul>
+
+<br>
+<br>
+
+Solo 0 y 1 son los valores posibles en el algebra booleana. En la operacion OR el resultado sera 1 si una o más variables es 1. 
+El signo mas denota la operacion OR y no la adicion ordinaria. La operación OR genera un resultado de 0 solo cuando todas las variables de entrada son 0.
+
+<br>
+<br>
+
+En la operacion AND esta se ejecuta exactamente igual que la multiplicacion ordinaria de unos y ceros.
+ Una salida igual a 1 ocurre sólo cuando en el caso de que todas las entradas sean 1. La salida es cero en cualquier caso donde una o mas entradas sean 0.
+
+<br>
+<br>
+
+El INVERSOR Es un circuito que siempre tiene una sola entrada y su nivel logico de salida es siempre contrario al nivel logico de la entrada. 
+
+<br>
+<br>
+
+Al dejar una parta del integrado arriba esta se muestra como un 1 lógico.
+<br>
+<br>
+
+Al polarizar de manera incorrecta el integrado se quema de manera automática.
+
+<br>
+<br>
+
+</ul>
+
+</h2>
+
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<html >
+
+<head>
+
+
+
+</head>
+
+
+<body  bgcolor="#01DFD7" >
+
+ <div style="background:#00FF00; width:20%; height: 30px; float:left;"> <a href= "logicamatematicapagina1.html">inicio</a> </div>
+
+  <div  style="background:#58FAF4; width:20%; height: 30px;float: left;"> <a href="logicamatematicapagina2.html"> Sistemas Numericos </a> </div>
+
+   <div  style="background:#F6CEF5; width: 20%; height:30px; float: left;"> <a href= "logicamatematicapagina3.html"> Calculo Proposicional </a> </div>
+   
+<div  style=" background: #D7DF01;  width: 20%; height:30px; float: left;"> <a href="logicamatematicapagina4.html" > Teoria de Conjuntos </a> </div>
+
+<div  style=" background: #FF8000; width: 20%; height: 30px; float: left;"> <a href="logicamatematicapagina5.html">Algebra de Boole y compuertas logicas </a> </div>
+
+
+       <p  style= "color=#58FAF4; text-align:justify;"> 
+       
+    
+
+
+<br>
+<br>
+
+ <center>  
+
+<h1  style= color:"#0404B4" > Logica Matematica </h1>
+
+ </center>
+
+<br>
+<br>
+
+ <center>  <img src="logica.jpg" width="440" height="300" >  </center>   
+
+
+  
+   </body>
+      
+       
+  </html>

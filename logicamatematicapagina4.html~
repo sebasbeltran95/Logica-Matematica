@@ -1,0 +1,191 @@
+<html<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<title>  Logica Matematica </title>
+<link  type="text/css2"  href="css2/estilo2.css"  rel="stylesheet" />
+
+
+</head>
+
+
+ <div style="background:#00FF00; width:20%; height: 30px; float:left;"> <a href= "logicamatematicapagina1.html">inicio</a> </div>
+
+  <div  style="background:#58FAF4; width:20%; height: 30px;float: left;"> <a href="logicamatematicapagina2.html"> Sistemas Numericos </a> </div>
+
+   <div  style="background:#F6CEF5; width: 20%; height:30px; float: left;"> <a href= "logicamatematicapagina3.html"> Calculo Proposicional </a> </div>
+   
+<div  style=" background: #D7DF01;  width: 20%; height:30px; float: left;"> <a href="logicamatematicapagina4.html" >Teoria de Conjuntos </a> </div>
+
+<div  style=" background: #FF8000; width: 20%; height: 30px; float: left;"> <a href="logicamatematicapagina5.html">Algebra de Boole y Compuertas Logicas </a> </div>
+
+
+       <p  style= "color=#58FAF4; text-align:justify;"> 
+       
+       <br>
+       <br>
+
+<body  bgcolor="#01DFD7"   >
+
+
+<p>
+<h2>
+
+
+<center>  
+
+<h1  style= color:"#0404B4" > Teoria de Conjuntos </h1>
+
+ </center>
+
+<br>
+<br>
+
+
+  <center>  <img src="conjuntos.gif" width="440" height="300" >  </center>   
+
+
+
+<center>   <h1 style= color:"#0404B4"  >  Definicion de conjunto y pertenencia  </h1>   </center>
+
+
+<ul>
+
+El concepto de conjunto es un concepto primitivo en matemáticas.
+Un conjunto es simplemente una colección de elementos distintos.
+Los conjuntos están únicamente determinados por sus miembros.
+Así, dos conjuntos son iguales si tienen exactamente los mismos miembros (éste se conoce como el axioma de extensionabilidad).
+Definimos x ÎA como “el elemento x pertenece al conjunto A”, y xÏA como “el elemento x no pertenece al conjunto A”.3.
+
+
+
+</ul>
+
+<br>
+<br>
+
+<center> <h1 style= color:"#0404B4"  >  Simbolos Comunes   </h1>   </center>
+
+<br>
+<br>
+
+<ul>
+Ø , {}: El conjunto  vacío.
+<br>
+U: El universo de discurso (notado también como I).
+<br>
+Ã(A) : Partes de A.
+<br>
+~(A), A’, Ac : El
+complemento de A
+
+
+</ul>
+
+ 
+<center> <h1 style= color:"#0404B4"  >  Definiciones Basicas   </h1>   </center> 
+ 
+ <ul> 
+ 
+ Sean A, B, conjuntos, y U el universo.
+Igualdad de conjuntos: A = B   ssi ("x : xÎA Û xÎB).
+Def. unión (È). A È B = {x | x Î A Ú x Î B }
+<br>
+Def. intersección (Ç). A Ç B = {x |x ÎA Ù x Î B}
+<br>
+Def. diferencia de conjuntos: A \ B = A – B = { x | x ÎA Ù x Ï B}
+<br>
+Def. Subconjunto: A Í B ssi("x | x Î A : x Î B).
+<br>
+Def. Subconjunto propio: A Ì B ssi(A Í B) Ù (A ¹ B).
+<br>
+Def. Complemento: Sea U el universo. Ac = U – A
+<br>
+Def. Partes de A (en inglés, power set of A): Ã(A) = { B | B Í A}.
+<br>
+Def. Conjuntos disyuntos: A y B con disyuntos ssi A Ç B = Æ
+<br>
+Def. Colección: Una colección es un conjuntos cuyos elementos son conjuntos (ej. Partes de A).
+<br>
+Def. Predicado característico de A: Sea A = { x | P }, con P un predicado.
+         Entonces P es el predicado característico de A.
+         <br>
+Def. Partición: Un conjunto A de conjuntos es una partición de B si todo elemento de B está en uno   
+         Y solo uno de los elementos de A.
+         <br>
+Def. Producto cartesiano: El producto cartesiano de A y B se denota A x B, y se tiene que A x B =
+        { (a,b) | a ÎA Ù bÎ B }
+<br>
+<br>
+ 
+ </ul>
+ 
+ 
+ <center> <h1 style= color:"#0404B4"  >  Diagramas de venn  </h1>   </center>
+ <br>
+ <br>
+ 
+ 
+<ul>
+
+Los conjuntos de suelen representar graficamente mediante "diagramas de Venn", con una linea que encierra a sus elementos. 
+
+<br>
+<br>
+
+Asi, todas las operaciones entre conjuntos se pueden representar graficamente con el fin de obtener una idea mas intuitiva. 
+
+<br>
+<br>
+
+A < B  
+
+<br>
+<br>
+
+<center>  <img src="imagen.jpg" width="440" height="300" >  </center>
+
+<br>
+<br>
+
+A U B
+ 
+<br>
+<br>
+
+<center>  <img src="union.jpg" width="440" height="300" >  </center>
+
+<br>
+<br>
+
+A n B 
+
+<br>
+<br>
+
+<center>  <img src="inters.jpg" width="440" height="300" >  </center>
+
+<br>
+<br>
+
+A - B 
+
+<br>
+<br>
+
+
+<center>  <img src="difer.jpg" width="440" height="300" >  </center>
+
+
+ </ul>
+ 
+
+
+</h2>
+
+</p>
+
+</body>
+
+</html>

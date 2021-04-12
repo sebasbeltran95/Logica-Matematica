@@ -1,0 +1,406 @@
+<html>
+
+<head>
+
+<title>  Logica  Matematica </title>
+<link  type="text/css2"  href="css2/estilo2.css"  rel="stylesheet" />
+
+</head>
+
+<body  bgcolor="#01DFD7" >
+
+ <div style="background:#00FF00; width:20%; height: 30px; float:left;"> <a href= "logicamatematicapagina1.html">inicio</a> </div>
+
+  <div  style="background:#58FAF4; width:20%; height: 30px;float: left;"> <a href="logicamatematicapagina2.html"> Sistemas Numericos </a> </div>
+
+   <div  style="background:#F6CEF5; width: 20%; height:30px; float: left;"> <a href= "logicamatematicapagina3.html"> Calculo Proposicional </a> </div>
+   
+<div  style=" background: #D7DF01;  width: 20%; height:30px; float: left;"> <a href="logicamatematicapagina4.html" >Teoria de Conjuntos </a> </div>
+
+<div  style=" background: #FF8000; width: 20%; height: 30px; float: left;"> <a href="logicamatematicapagina5.html">Algebra de Boole y Compuertas Logicas </a> </div>
+
+
+       <p  style= "color=#58FAF4; text-align:justify;"> 
+<br>
+<br>       
+
+<center>  
+
+<h1  style= color:"#0404B4" >  Sistemas Numericos </h1>
+
+ </center>
+
+<br>
+<br>
+
+  <center>  <img src="numerico.jpg" width="440" height="300" >  </center>   
+
+<br>
+
+ <P>
+ <h2>
+<ul>
+
+Digito: Es un signo que representa una cantidad contable. Dependiendo del sistema de numeracion, seran los diferentes signos que se tenga para representar cualquier cantidad.
+Numero: Es la representacion de una cantidad contable por medio de uno o mas dígitos.
+Sistema de Numeracion: Es un conjunto de digitos que sirven para representar una cantidad contable.
+El nombre del sistema de numeracion que se trate seran los diferentes digitos posibles para tal representación.
+Así tambien los sistemas de numeracion se les llama base, de tal manera que el sistema de numeracion binario, tambien se le llama base 2.
+Los sistemas de numeracion más utilizados en electronica son:
+<br>
+ <li> Binario o Base 2 (0, 1) </li>
+ <br>
+ <li> Octal o Base 8 (0, 1, 2, 3, 4, 5, 6, 7) </li>
+ <br>
+ <li> Hexadecimal o Base 16 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F) </li>
+ <br>
+ <li> Decimal o Base 10 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) </li>
+ <br>
+Absoluto
+<br>
+
+Valores de un digito 
+<br>
+Relativo
+<br>
+Valor Absoluto de un Digito: Es aquel representa un digito sin importar donde se encuentre asi: 
+<br> 
+<br>
+5 2 7 6 10 BASE 10
+<br>
+5 Cinco 2 Dos 7 Siete 6 Seis
+<br>
+<br>
+
+<li>  Valor Relativo de un Digito:   </li>
+<br>
+<br>
+
+Es aquel representa el mismo digito, 
+dependiendo de la posicion que se encuentre con respecto a la division de los enteros y las fracciones.
+<br>
+
+
+53 22 71 60 = Cinco mil, doscientos, Setenta y Seis
+<br>
+5 x 103 + 2 x 102 + 7 x 101 + 6 x 100
+<br>
+5 x 1000 + 2 x 100 + 7 x 10 + 6 x 1
+
+
+
+
+</ul>
+ 
+
+ 
+
+ 
+ 
+ <li> <center> <h1 style= color:"#0404B4"    > Conversiones Entre los Sistemas de Numeracion </h1>      </center> </li>
+ 
+<br>
+<br>
+<ul> 
+
+Conversion de decimal a cualquier otro sistema de numeracion:
+<br>
+Para convertir de decimal a cualquier otro sistema se hara por division sucesiva, es decir que si queremos convertir a binario un numero de decimal, 
+bastara dividir entre dos la cantidad y el resultado volverlo a dividir hasta que el resultado sea menor a 2, 
+siempre con numeros enteros, de tal manera si el numero decimal es non o impar sobrara siempre uno y si es par sobrara cero y estos residuos se pondran en orden de la ultima division a la primera y se da dicho numero binario.
+
+
+</ul>
+ 
+ <br>
+ 
+ <li> <center> <h1 style= color:"#0404B4"    > Binario o Base 2  </h1>      </center> </li>
+ <br>
+ 
+<ul>
+
+ 
+ Ejemplo de la conversión de decimal a binario:
+ <br>
+7004 10 1101101011100 2 2003 10 11111010011 2
+<br>
+7004 0 2003 1 
+<br>
+3502 0 1001 1 
+<br>
+1751 1 500 0 
+<br>
+875 1 250 0 
+<br>
+437 1 125 1 
+<br>
+218 0 62 0 
+<br>
+109 1 31 1 
+<br>
+54 0 15 1 
+<br>
+27 1 7 1 
+<br>
+13 1 3 1 
+<br>
+6 0 1 1 
+<br>
+3 1 
+<br>
+1 1 
+<br>
+7699 10 1111000010011 2 2531 10 1001111000112
+<br>
+7699 1 2531 1 
+<br>
+<li> 1 1265 1   </li>
+<br>
+1924 0 623 0 
+<br>
+962 0 316 0 
+<br>
+481 1 158 0 
+<br>
+240 0 79 1 
+<br>
+120 0 39 1 
+<br>
+60 0 19 1 
+<br>
+30 0 9 1 
+<br>
+15 1 4 0 
+<br>
+7 1 2 0 
+<br>
+3 1 1 1 
+<br>
+1 1 
+<br>
+Para convertir de cualquier sistema de numeracion a decimal se hara por el peso de los digitos,
+ convirtiendose estos a decimal y sumando el resultado.
+<br>
+<br>
+
+ <center>  <img src="binario.jpg" width="440" height="300" >  </center> 
+ 
+<br>
+<br>
+
+En matematicas, varios sistemas de notacion que se han usado o se usan para representar cantidades abstractas denominadas numeros. 
+Un sistema numerico esta definido por la base que utiliza. La base de un sistema numerico es el numero de simbolos diferentes o guarismos,
+ necesarios para representar un numero cualquiera de los infinitos posibles en el sistema. 
+ 
+ <br>
+ <br>
+ 
+A lo largo de la historia se han utilizado multitud de sistemas numericos diferentes, pero existen 4 de sistemas numericos de los mas utilizados en la actualidad y son: 
+ 
+ <li>  Binario o Base 2 (2 Dígitos, 0 - 1)    </li>
+ 
+ <li> Octal o Base 8 (8 Dígitos, 0 - 7)   </li>
+ 
+ <li> Decimal o Base 10 (10 Dígitos, 0 - 9)   </li>
+ 
+ <li> Hexadecimal o Base 16 (16 Dígitos, 0 - f)   </li>
+ <br>
+ <br>
+ 
+ Valores posiciónales:
+ <br>
+ <br>
+ 
+ La posicion de una cifra indica el valor de dicha cifra en funcion de los valores exponenciales de la base. En el sistema decimal, 
+ la cantidad representada por uno de los diez dígitos -0, 1, 2, 3, 4, 5, 6, 7, 8 y 9- depende de la posicion del numero completo. 
+ 
+ <br>
+ <br>
+ 
+ Para convertir un numero n dado en base 10 a un numero en base b, se divide (en el sistema decimal) n por b, 
+ el cociente se divide de nuevo por b, y asi sucesivamente hasta obtener un cociente cero.
+ 
+ <br>
+ <br>
+ 
+Sistema Numérico Binario o Base 2
+
+<br>
+<br>
+
+El sistema de numeración mas simple que usa la notacion posicional es el sistema de numeracion binario. 
+Este sistema, como su nombre lo indica, usa solamente dos digitos (0,1).  
+ 
+ 
+ 
+ </ul>
+ 
+ 
+ <li> <center> <h1 style= color:"#0404B4"    > Numeros decimales del 0 al 10 y sus equivalentes en binario </h1>      </center> </li>
+ <br>
+ <br>
+<ul>
+ 
+ <li> Sistema Numerico Octal o Base 8 </li>
+ <br>
+ <br>
+ 
+ El sistema de numeracion octal es tambien muy usado en la computacion por tener una base que es potencia exacta de 2 o de la numeracion binaria. 
+ Esta caracteristica hace que la conversion a binario o viceversa sea bastante simple. El sistema octal usa 8 digitos (0,1,2,3,4,5,6,7) y tienen el mismo valor que en el sistema de numeracion decimal. 
+ Como el sistema de numeracion octal usa la notacion posicional entonces para el numero 3452.32q tenemos: 
+ 
+ <br>
+ <br>
+ 
+ 2*(80) + 5*(81) + 4*(82) + 3*(83) + 3*(8-1) + 2*(8-2) = 2 + 40 + 4*64 + 64 + 3*512 + 3*0.125 + 2*0.015625 = 2 + 40 + 256 + 1536 + 0.375 + 0.03125 = 1834 + 40625dentonces, 3452.32q = 1834.40625d 
+ <br>
+ <br>
+ 
+ Los numeros octales pueden construirse a partir de numeros binarios agrupando cada tres digitos consecutivos de estos ultimos (de derecha a izquierda) y obteniendo su valor decimal. 
+ 
+ <br>
+ <br>
+ 
+ Por ejemplo, el numero binario para 74 (en decimal) es 1001010 (en binario), lo agrupariamos como 1 001 010. De modo que 74 en octal es 112. 
+ 
+ <br>
+ <br>
+ 
+ Es posible que la numeracion octal se usara en el pasado en lugar de la decimal, por ejemplo, para contar los espacios interdigitales o los dedos distintos de los pulgares. Esto explicaria porque en latin nueve (novem) se parece tanto a nuevo (novus).
+  Podria tener el significado de numero nuevo. 
+ 
+ <br>
+ <br>
+ 
+ 
+ <li>  Sistema Numerico Decimal o Base 10    </li>
+ 
+ <br>
+ <br>
+ 
+ El sistema de numeración decimal es el mas usado, tiene como base el numero 10, o sea que posee 10 digitos (o símbolos) diferentes (0, 1, 2, 3, 4, 5, 6, 7, 8, 9). El sistema de numeracion decimal fue desarrollado por los hindues, 
+ posteriormente lo introducen los arabes en Europa, donde recibe el nombre de sistema de numeracion decimal o arabigo. Si se aplica la notación posicional al sistema de numeracion decimal entonces el dígito numero n tiene el valor: (10n)* A 
+ 
+ <br>
+ <br>
+ 
+ Este valor es positivo y es mayor o igual que uno si el digito se localiza a la izquierda del punto decimal y depende del digito A, en cambio el valor es menor que uno si el digito se localiza a la derecha del punto decimal. 
+ Por ejemplo, el numero 3489.125 expresado en la notacion posicional es: 
+ 
+ <br>
+ <br>
+ primero 9 * (100) = 9 --------- primero 1*(10-1) = 0.1 
+ <br>
+segundo 8 * (101) = 80 -------- segundo 2*(10-2) = 0.02 
+<br>
+tercero 4 * (102) = 400 -------- tercero 5*(10-3) = 0.005 
+<br>
+cuarto 3 * (103) = 3000 
+<br>
+<br>
+
+<li> Notación Posicional del Sistema  </li>
+<br>
+<br>
+
+(10-6) = 0.000001 
+<br>
+
+(10-5) = 0.00001 
+<br>
+
+(10-4) = 0.0001 
+<br>
+
+(10-3) = 0.001 
+<br>
+
+(10-2) = 0.01 
+<br>
+
+(10-1) = 0.1 
+<br>
+
+(100) = 1 
+<br>
+
+(101) = 10 
+<br>
+
+(102) = 100 
+<br>
+
+(103) = 1000 
+<br>
+
+(104) = 10000 
+<br>
+
+(105) = 100000 
+<br>
+
+(106) = 10000000
+
+
+ 
+<li>  Sistema Numerico Hexadecimal o Base 16    </li> 
+<br>
+<br>
+
+El sistema de numeracion hexadecimal, o sea de base 16, (es comun abreviar hexadecimal como hex aunque hex significa base seis y no base dieciseis).
+ El sistema hexadecimal es compacto y nos proporciona un mecanismo sencillo de conversion hacia el formato binario, debido a esto, la mayoria del equipo de computo actual utiliza el sistema numerico hexadecimal.
+  Como la base del sistema hexadecimal es 16, cada digito a la izquierda del punto hexadecimal representa tantas veces un valor sucesivo potencia de 16, por ejemplo, el numero 123416 es igual a: 
+ 
+ <br>
+ <br>
+ 
+ 1*163 + 2*162 + 3*161 + 4*160
+ 
+ <br>
+ <br>
+ 
+ 
+ lo que da como resultado: 
+ 
+ <br>
+ <br>
+ 
+ 
+ 
+4096 + 512 + 48 + 4 = 466010 
+ 
+ <br>
+ <br>
+ 
+ Cada digito hexadecimal puede representar uno de dieciseis valores entre 0 y 1510. Como solo tenemos diez digitos decimales, necesitamos inventar seis digitos adicionales para representar los valores entre 1010 y 1510. 
+ En lugar de crear nuevos simbolos para estos digitos, utilizamos las letras A a la F. 
+ 
+ <br>
+ <br>
+ 
+ Para convertir un numero hexadecimal en binario, simplemente sustituya los correspondientes cuatro bits para cada digito hexadecimal, por ejemplo, para convertir 0ABCDh en un valor binario: 
+ 
+<br>
+<br>
+
+0 A B C D (Hexadecimal) 
+ 
+ <br>
+ <br>
+ 
+ 0000 1010 1011 1100 1101 (Binario)
+ 
+ 
+ </ul>
+ 
+ 
+ 
+ 
+ 
+ </h2>
+ 
+ 
+ 
+  
+ 
+ 
